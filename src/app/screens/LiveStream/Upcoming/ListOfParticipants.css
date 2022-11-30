@@ -1,0 +1,130 @@
+.participants {
+  margin-top: 0px;
+}
+.participant-list {
+  width: 492px;
+  height: 80px;
+}
+.ring {
+  background-image: url('https://wallpaperaccess.com/full/38123.jpg');
+  background-size: cover;
+  width: auto;
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.call-bg {
+  background-color: #3c8618;
+  width: 110px;
+  height: 20px;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+
+  /* Polar Green/green-5 */
+}
+.stream-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+
+  float: left;
+  min-height: 180px;
+  margin: 2px;
+  padding: 10px;
+  min-width: 117px;
+  position: relative;
+}
+
+.gfg {
+  font-size: 40px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.geeks {
+  text-align: center;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.items {
+  width: 488px;
+  height: 72px;
+}
+.Your-Camera {
+  margin-top: 32px;
+  margin-left: 32px;
+
+  position: relative;
+}
+.enter-button {
+  position: absolute;
+  left: 350px;
+  width: 200px;
+  height: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  .participant-list {
+    width: 392px;
+    height: 80px;
+    margin-left: 20px;
+  }
+  .list {
+    display: flex;
+  }
+  .ring {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYHSLNbYbrpr08C7o-nTOLJ7sPkptZy621g&usqp=CAU');
+    background-size: cover;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .enter-button {
+    position: absolute;
+    margin-right: 40px;
+    left: 300px;
+    width: 200px;
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .participant-list {
+    width: 392px;
+    height: 80px;
+    margin-left: 20px;
+  }
+  .list {
+    display: flex;
+  }
+  .ring {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYHSLNbYbrpr08C7o-nTOLJ7sPkptZy621g&usqp=CAU');
+    background-size: cover;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .ring {
+    width: 100vh;
+    height: 100vh;
+  }
+}
